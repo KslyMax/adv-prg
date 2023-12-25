@@ -1,0 +1,155 @@
+/* font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+h1, h2, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+
+/* ------------------------------ */
+/* Navigation Bar */
+/* ------------------------------ */
+
+.nav-link {
+    margin: 0 35px;
+}
+
+.nav-text {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2rem;
+    /* font-weight: 600; */
+}
+
+/* ------------------------------ */
+
+
+/* ------------------------------ */
+/* Content Section*/
+/* ------------------------------ */
+.content {
+    color: #000;
+    padding: 70px;
+    background-color: #fff;
+    align-content: center;
+    backdrop-filter: blur(100px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    position: relative;
+    bottom: 155%;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 991px) {
+    .content {
+        padding: 20px;
+        bottom: 0;
+    }
+}
+
+/* ------------------------------ */
+
+
+/* ------------------------------ */
+/* Need Help Now Section*/
+/* ------------------------------ */
+#need-help-now {
+    padding: 70px;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 991px) {
+    #need-help-now {
+        padding: 20px;
+    }
+}
+/* ------------------------------ */
+
+
+/* ------------------------------ */
+/* About Us Section*/
+/* ------------------------------ */
+#about {
+    padding: 70px;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 991px) {
+    #about {
+        padding: 20px;
+    }
+}
+
+/* ------------------------------ */
+
+
+/* ------------------------------ */
+/* Services Section */
+/* ------------------------------ */
+#services {
+    padding: 70px;
+}
+
+.icon {
+    font-size: 3rem;
+    padding: 10px;
+    color: #18d26e;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 991px) {
+    #services {
+        padding: 20px;
+    }
+}
+
+/* ------------------------------ */
+
+
+/* ------------------------------ */
+/* Appointment Section */
+/* ------------------------------ */
+#appointment {
+    padding: 70px;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 991px) {
+    #appointment {
+        padding: 20px;
+    }
+}
+
+/* ------------------------------ */
+
+
+/* ------------------------------ */
+/* Contact Section*/
+/* ------------------------------ */
+#contact {
+     padding: 70px; 
+}
+
+.bltext-black-box {
+    border: 1px gray solid;
+    border-radius: 25px;
+    padding: 10%;
+}
+/* Media queries for smaller screens */
+@media (max-width: 991px) {
+    #contact {
+        padding: 20px;
+    }
+}
+
+/* ------------------------------ */
